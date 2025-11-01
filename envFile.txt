@@ -1,0 +1,21 @@
+args="-j8 O=/home/just/android_kernel_xiaomi_ysl/out ARCH=arm64 CC=/home/just/android_kernel_xiaomi_ysl/toolchain/bin/clang CROSS_COMPILE=/home/just/android_kernel_xiaomi_ysl/toolchain/bin/aarch64-linux-gnu- CROSS_COMPILE_ARM32=/home/just/android_kernel_xiaomi_ysl/toolchain/bin/arm-linux-gnueabi- AR=/home/just/android_kernel_xiaomi_ysl/toolchain/bin/llvm-ar NM=/home/just/android_kernel_xiaomi_ysl/toolchain/bin/llvm-nm OBJCOPY=/home/just/android_kernel_xiaomi_ysl/toolchain/bin/llvm-objcopy OBJDUMP=/home/just/android_kernel_xiaomi_ysl/toolchain/bin/llvm-objdump READELF=/home/just/android_kernel_xiaomi_ysl/toolchain/bin/llvm-readelf OBJSIZE=/home/just/android_kernel_xiaomi_ysl/toolchain/bin/llvm-size STRIP=/home/just/android_kernel_xiaomi_ysl/toolchain/bin/llvm-strip LLVM_AR=/home/just/android_kernel_xiaomi_ysl/toolchain/bin/llvm-ar LLVM_DIS=/home/just/android_kernel_xiaomi_ysl/toolchain/bin/llvm-dis"
+
+
+
+args="-j8 O=/home/just/android_kernel_xiaomi_ysl/out ARCH=arm64 CC=clang CROSS_COMPILE=aarch64-linux-gnu- CROSS_COMPILE_32=arm-linux-gnueabihf- AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump READELF=llvm-readelf OBJSIZE=llvm-size STRIP=llvm-strip LLVM_AR=llvm-ar LLVM_DIS=llvm-dis"
+
+
+ARCH=arm64 
+CC=clang 
+CROSS_COMPILE=aarch64-linux-gnu- 
+CROSS_COMPILE_32=arm-linux-gnueabihf- 
+AR=llvm-ar 
+NM=llvm-nm 
+OBJCOPY=llvm-objcopy 
+OBJDUMP=llvm-objdump 
+READELF=llvm-readelf 
+OBJSIZE=llvm-size 
+STRIP=llvm-strip 
+LLVM_AR=llvm-ar 
+LLVM_DIS=llvm-dis
+LLVM_IAS=1
