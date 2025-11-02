@@ -5,6 +5,7 @@ args="-j8 O=/home/just/android_kernel_xiaomi_ysl/out ARCH=arm64 CC=/home/just/an
 args="-j8 O=/home/just/android_kernel_xiaomi_ysl/out ARCH=arm64 CC=clang CROSS_COMPILE=aarch64-linux-gnu- CROSS_COMPILE_32=arm-linux-gnueabihf- AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump READELF=llvm-readelf OBJSIZE=llvm-size STRIP=llvm-strip LLVM_AR=llvm-ar LLVM_DIS=llvm-dis"
 
 
+export PATH="/home/just/android_kernel_xiaomi_ysl/toolchain/bin:$PATH"
 ARCH=arm64 
 CC=clang 
 CROSS_COMPILE=aarch64-linux-gnu- 
